@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;700&family=Noto+Sans:wght@100;600&family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav p{
+  font-size: 24px;
+  margin-left: 20px;
+
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin: 15px;
+    cursor: pointer;
+}
+header nav ul li:hover{
+    color: #e86908;
+}
